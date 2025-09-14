@@ -1,0 +1,23 @@
+name: Submit URLs to Search Engines
+
+on:
+  workflow_dispatch: # 手动触发
+  schedule:
+    # 每天北京时间早上 8 点运行（UTC 时间 00:00）
+    - cron: "0 0 * * *"
+
+jobs:
+  submit-urls:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Make script executable
+        run: chmod +x ./apps/gkBlog/scripts/submit_urls.sh
+
+      - name: Submit URLs to Search Engines
+        env:
+          BAIDU_API_URL: ${{ secrets.BAIDU_API_URL }}
+          BING_API_KEY: ${{ secrets.BING_API_KEY }}
+        run: ./apps/gkBlog/scripts/submit_urls.sh
