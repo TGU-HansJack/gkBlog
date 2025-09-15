@@ -25,7 +25,7 @@ function HeaderTitle() {
         animate={animation.show}
         transition={{ delay: 0.1 }}
       >
-        嗨!
+        Hello World!
         <m.div
           initial={{
             opacity: 0,
@@ -84,14 +84,14 @@ function HeaderTitle() {
           animate={animation.show}
           transition={{ delay: 0.3 }}
         >
-          <span className={clsx("lowercase")}>爱</span>{" "}
+          <span className={clsx("lowercase")}>来自</span>{" "}
           <strong
             className={clsx(
               "font-bold text-lg text-slate-700",
               "dark:text-slate-300"
             )}
           >
-            捣鼓
+            Materials & Fiber
           </strong>{" "}
           <span>+</span>{" "}
           <strong
@@ -100,9 +100,9 @@ function HeaderTitle() {
               "dark:text-slate-300"
             )}
           >
-            不断进步
+            Indie Developer
           </strong>{" "}
-          <span className={clsx("block")}>材料化纤出身，个人开发者，热衷互联网，成长和突破，就是我的日常秘籍！</span>
+          <span className={clsx("block")}>爱捣鼓，爱互联网，喜欢捣鼓，不断进步！</span>
         </m.h1>
       </span>
     </div>
