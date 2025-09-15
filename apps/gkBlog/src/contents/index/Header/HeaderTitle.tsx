@@ -70,9 +70,9 @@ function HeaderTitle() {
         >
           I&apos;m{" "}
           <strong className={clsx("text-accent-600", "dark:text-accent-500")}>
-            qlAD
+            Hansj.
           </strong>{" "}
-          乔,{" "}
+          寒,{" "}
         </m.span>
         <m.h1
           className={clsx(
@@ -84,25 +84,25 @@ function HeaderTitle() {
           animate={animation.show}
           transition={{ delay: 0.3 }}
         >
-          <span className={clsx("lowercase")}>做</span>{" "}
+          <span className={clsx("lowercase")}>爱</span>{" "}
           <strong
             className={clsx(
               "font-bold text-lg text-slate-700",
               "dark:text-slate-300"
             )}
           >
-            技术的黑客心态
+            捣鼓
           </strong>{" "}
-          <span>加上</span>{" "}
+          <span>+</span>{" "}
           <strong
             className={clsx(
               "font-bold text-lg text-slate-700",
               "dark:text-slate-300"
             )}
           >
-            开放共进的态度
+            不断进步
           </strong>{" "}
-          <span className={clsx("block")}>是成长和越过高山幽谷的秘籍！</span>
+          <span className={clsx("block")}>材料化纤出身，个人开发者，热衷互联网，成长和突破，就是我的日常秘籍！</span>
         </m.h1>
       </span>
     </div>
