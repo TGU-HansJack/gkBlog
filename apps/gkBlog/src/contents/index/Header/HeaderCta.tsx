@@ -25,7 +25,7 @@ interface ButtonContactMeProps {
 function ButtonContactMe({ onMouseEnter, onMouseLeave }: ButtonContactMeProps) {
   return (
     <Link
-      href="mailto:qlad_adgk@163.com"
+      href="mailto:hansjack@qq.com"
       className={clsx(
         "button button--solid min-w-[128px]",
         "shadow",
