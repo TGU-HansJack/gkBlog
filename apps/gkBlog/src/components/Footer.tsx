@@ -15,7 +15,7 @@ function LastUpdate() {
   return (
     <div>
       <a
-        href="https://github.com/enjidev/enji.dev"
+        href="https://github.com/qlAD/gkBlog"
         target="_blank"
         rel="noreferrer nofollow"
         className={clsx("hover:underline")}
@@ -28,7 +28,7 @@ function LastUpdate() {
         rel="noreferrer nofollow"
         className={clsx("hover:underline")}
       >
-        <span>查看 gkBlog 更新</span>
+        <span>查看主题修改</span>
       </Link>
       <br />
       <a
@@ -132,8 +132,8 @@ function FooterDescription() {
         关于我
       </div>
       <p className={clsx("mb-4 font-normal leading-relaxed")}>
-        我是 qlAD, 一名小小的 <strong>计算机爱好者</strong>{" "}
-        ，致力于探索能改变世界的代码。
+        我是 HansJack, 材料专业的 <strong>计算机爱好者</strong>{" "}
+        爱捣鼓，不断进步！
       </p>
       <ul className={clsx("-ml-2 flex gap-1")}>
         <li>
@@ -245,18 +245,8 @@ function Footer() {
                   title="服务"
                   links={[
                     {
-                      title: "十年之约",
-                      href: "https://foreverblog.cn/go.html",
-                      isInternal: false,
-                    },
-                    {
-                      title: "开往",
-                      href: "https://www.travellings.cn/go.html",
-                      isInternal: false,
-                    },
-                    {
                       title: "Status",
-                      href: "https://status.qladgk.com/status/qlad",
+                      href: "",
                       isInternal: false,
                     },
                   ]}
@@ -290,7 +280,7 @@ function Footer() {
           )}
         >
           <div className={clsx("font-semibold")}>
-            &copy; {dayjs().format("YYYY")}, qlADgk.com 版权所有
+            &copy; {dayjs().format("YYYY")}, hansjack.top 版权所有
             <div>
               <span>
                 ICP:
@@ -300,7 +290,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   style={{ margin: "0 5px" }}
                 >
-                  陕ICP备2024050194号-1
+                  津ICP备2025036798号-1
                 </a>
               </span>
               <br />
@@ -314,11 +304,11 @@ function Footer() {
                   style={{ margin: "0 5px" }}
                 />
                 <a
-                  href="https://beian.mps.gov.cn/#/query/webSearch?code=61072102000193"
+                  href="https://beian.mps.gov.cn/#/query/webSearch?code=12011102001759"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  陕公网安备61072102000193
+                  津公网安备12011102001759号
                 </a>
               </span>
             </div>
