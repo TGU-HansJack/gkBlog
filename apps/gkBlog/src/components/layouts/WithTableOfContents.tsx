@@ -59,7 +59,7 @@ function PageWithMDX({
             <TableOfContents items={tableOfContents} />
             <div className={clsx("my-6")} />
             <Sidebar
-              show={["publicAccount", "recentArticles", "recentComments"]}
+              show={["recentArticles", "recentComments"]}
             />
           </div>
         </div>

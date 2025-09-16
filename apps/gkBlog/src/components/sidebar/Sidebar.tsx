@@ -52,7 +52,6 @@ declare global {
 }
 
 function Sidebar({ show }: SidebarProps) {
-  const imageUrl = "https://cdn.qladgk.com/images/gongzhonghao.png";
   const [recentArticles, setRecentArticles] = useState<RecentArticle[]>([]);
   const [tagsWithCount, setTagsWithCount] = useState<Record<string, number>>(
     {}
@@ -292,20 +291,6 @@ function Sidebar({ show }: SidebarProps) {
         </Card>
       )}
 
-      {show.includes("publicAccount") && (
-        <Card title="订阅更新" className="hidden md:block">
-          <div className="flex items-center justify-center">
-            <m.img
-              src={imageUrl}
-              alt="Sidebar Image"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
-              className="rounded-lg"
-            />
-          </div>
-        </Card>
-      )}
     </aside>
   );
 }

@@ -135,7 +135,6 @@ function BlogContents({ posts }: BlogContentsProps) {
                 "categories",
                 "recentArticles",
                 "recentComments",
-                "publicAccount",
               ]}
             />
           </div>
