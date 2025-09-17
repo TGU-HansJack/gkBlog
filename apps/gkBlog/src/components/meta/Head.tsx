@@ -19,7 +19,7 @@ function Head({
 }: HeadProps) {
   const currentUrl = useCurrentUrl();
 
-  const htmlTitle = overrideTitle ? title : `${title} — qlAD的技术笔记`;
+  const htmlTitle = overrideTitle ? title : `${title} — 寒士杰克的博客`;
 
   return (
     <NextHead>
@@ -38,8 +38,8 @@ function Head({
 
       {/* twitter card */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@qlAD" />
-      <meta name="twitter:creator" content="@qlAD" />
+      <meta name="twitter:site" content="@HANsJ." />
+      <meta name="twitter:creator" content="@HANsJ." />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />

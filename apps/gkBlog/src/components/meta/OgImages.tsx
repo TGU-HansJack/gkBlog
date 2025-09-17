@@ -151,7 +151,7 @@ export function PostOgImage({
           src="https://cdn.qladgk.com/images/qlAD.jpg"
           style={styles.authorAvatar}
         />
-        <div style={styles.authorName}>@qlAD</div>
+        <div style={styles.authorName}>@HANsJ.</div>
 
         {date && (
           <>
@@ -217,7 +217,7 @@ export function PageOgImage({
           src="https://cdn.qladgk.com/images/qlAD.jpg"
           style={styles.authorAvatar}
         />
-        <div style={styles.authorName}>@qlAD</div>
+        <div style={styles.authorName}>@HANsJ.</div>
       </div>
       <div
         style={
