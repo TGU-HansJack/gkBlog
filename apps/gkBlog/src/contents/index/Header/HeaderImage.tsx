@@ -47,7 +47,7 @@ function RotatingModel({ onHover, onHoverEnd }: RotatingModelProps) {
     <primitive
       object={scene}
       scale={[0.8, 0.8, 0.8]}
-      position={[0, 0, 0]}
+      position={[0, -1, 0]}
       ref={modelRef}
       onPointerOver={onHover}
       onPointerOut={onHoverEnd}
