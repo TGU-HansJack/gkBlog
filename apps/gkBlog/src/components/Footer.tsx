@@ -150,7 +150,7 @@ function FooterDescription() {
         </li>
         <li>
           <a
-            href="https://github.com/qlAD"
+            href="https://github.com/TGU-HansJack"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx("flex h-9 w-9 items-center justify-center")}
@@ -162,7 +162,7 @@ function FooterDescription() {
         </li>
         <li>
           <a
-            href="https://space.bilibili.com/505243833"
+            href="https://space.bilibili.com/3494371942992681"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx("flex h-9 w-9 items-center justify-center")}

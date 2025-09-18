@@ -103,22 +103,22 @@ function LinksContents() {
         <p>如果您希望与我交换友链，请使用以下格式申请：</p>
         <Code language="markdown" lines={6}>
           <span className="text-gray-800 dark:text-gray-100">
-            昵称（请勿包含博客等字样）：qlAD
+            昵称（请勿包含博客等字样）：寒士杰克
             <br />
-            网站地址（要求博客地址，请勿提交个人主页）：https://www.qladgk.com/
+            网站地址（要求博客地址，请勿提交个人主页）：https://www.hansjack.top/
             <br />
-            头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：https://cdn.qladgk.com/images/qlAD.jpg
+            头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：https://www.hansjack.top/assets/images/hansjack.webp
             <br />
             描述：一名小小的计算机爱好者
             <br />
             类型（生活类或者技术类二选一）：技术类
             <br />
-            能看到友情链接的地址：https://www.qladgk.com/links
+            能看到友情链接的地址：https://www.hansjakc.top/links
           </span>
         </Code>
 
         <p className="mt-4">
-          发送申请至: <a href="mailto:qlad_adgk@163.com">qlad_adgk@163.com</a>{" "}
+          发送申请至: <a href="mailto:hansjack@qq.com">hansjack@qq.com</a>{" "}
           或者在下方留言。
         </p>
       </div>
